@@ -15,6 +15,8 @@ namespace TQL.Bootcamp.Class1
            //sarah.____ goes to Student class and pulls that property to insert this value
             sarah.FirstName = "Sarah";
             sarah.LastName = "George";
+            //calls to SetHireDate method from Student class, gives it (value,value,value) for sarah variable
+            sarah.SetHireDate(2017, 6, 26);
 
             var charlie = new Student();
             charlie.FirstName = "Charlie";
